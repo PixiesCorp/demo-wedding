@@ -1,0 +1,85 @@
+.gallery {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #a5b4a7;
+}
+
+.gallery-title {
+  text-align: center;
+  font-size: 3em;
+  line-height: 1em;
+  letter-spacing: 0.15em;
+  padding: 1em;
+  font-family: 'Sacramento', cursive;
+  font-weight: 500;
+}
+
+.gallery-contain {
+  width: 90%;
+  min-height: 100vh;
+  background: #fff;
+  margin: 0% 5% 5% 5%;
+  display: grid;
+  gap: 1em;
+  padding: 1em;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(13, 1fr);
+}
+
+.p1.photo, .p2.photo, .p3.photo, .p4.photo, .p5.photo, .p6.photo, .p7.photo{
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+}
+
+.p1 {
+  background: url(/images/boda-1.jpg);
+  grid-column: 1/7;
+  grid-row: 1/4;
+}
+
+.p2 {
+  background: url(/images/boda-2.jpg);
+  grid-column: 1/4;
+  grid-row: 8/11;
+}
+
+.p3 {
+  background: url(/images/boda-3.jpg);
+  grid-column: 4/7;
+  grid-row: 4/8;
+}
+
+.p4 {
+  background: url(/images/boda-4.jpg);
+  grid-column: 1/4;
+  grid-row: 4/8;
+}
+
+.p5 {
+  background: url(/images/boda-5.jpg);
+  grid-column: 4/7;
+  grid-row: 8/11;
+}
+
+.p6 {
+  background: url(/images/boda-6.jpg);
+  grid-column: 1/4;
+  grid-row: 11/14;
+}
+
+.p7 {
+  background: url(/images/boda-7.jpg);
+  grid-column: 4/7;
+  grid-row: 11/14;
+}
+
+.fill {
+  width: 100vw;
+  height: 5em;
+}

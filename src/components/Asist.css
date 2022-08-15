@@ -1,0 +1,226 @@
+.asist {
+	width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	background-color: #a5b4a7;
+	flex-direction: column;
+}
+
+.asist-title {
+	text-align: center;
+	font-size: 3em;
+	line-height: 1em;
+	letter-spacing: 0.15em;
+	padding: 1em;
+	font-family: 'Sacramento', cursive;
+	font-weight: 500;
+}
+
+.asist-contain-img {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+}
+
+.asist-contain-img img {
+	width: 8em;
+}
+
+.suit {
+	margin-left: 5em;
+}
+
+.type-event {
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 2em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.info {
+	width: 100vw;
+	height: 4em;
+	font-size: 1.3em;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+.confirm {
+	text-align: center;
+	font-size: 1.4em;
+	line-height: 2.7em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.confirm-btn {
+	text-align: center;
+	width: 50%;
+	align-self: center;
+	padding: 15px 0 15px 0;
+	border-radius: 10px;
+	background-color: #bdd5bf;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+.info p {
+	line-height: 1em;
+}
+
+.dress {
+	align-self: flex-end;
+	margin-right: 5em;
+}
+
+.asist-contain-form {
+	width: 100vw;
+	height: 30em;
+}
+
+.btn-exit {
+	width: 3em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 3em;
+	position: absolute;
+	border-radius: 50%;
+	right: 1em;
+	top: 1em;
+	background-color: #bdd5bf;
+}
+
+.communication {
+	width: 90%;
+	border-radius: 1em;
+	align-self: center;
+	height: 30em;
+	background-color: #fff;
+	display: flex;
+	position: absolute;
+	top: 10em;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	box-shadow: 0px 0px 254px 101px rgba(0, 0, 0, 0.61);
+}
+
+.title-flex-middle {
+	color: black;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 4em;
+}
+
+.whatsapp-card-app {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.send-btn {
+	color: white;
+	padding: 15px 40px 15px 40px;
+	background-color: #bdd5bf;
+	border-radius: 10px;
+}
+
+.fill {
+	width: 100vw;
+	height: 60em;
+}
+
+/* Iphone XR*/
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+	.asist-contain-img img {
+		width: 6em;
+	}
+
+	.fill {
+		display: none;
+	}
+
+	.confirm {
+		line-height: 3em;
+	}
+
+	.communication {
+		top: 5em;
+		height: 27em;
+	}
+}
+
+/* iphone X */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+	.asist-contain-img img {
+		width: 5em;
+	}
+
+	.info {
+		height: 3em;
+	}
+
+	.confirm {
+		line-height: 2em;
+	}
+
+	.fill {
+		display: none;
+	}
+
+	.communication {
+		top: 5em;
+		height: 27em;
+	}
+}
+
+/* iphone 8 */
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+	.asist-contain-img img {
+		width: 5em;
+	}
+
+	.fill {
+		height: 4.5em;
+	}
+
+	.communication {
+		top: 9em;
+		height: 27em;
+	}
+}
+
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+	.fill {
+		display: none;
+	}
+
+	.asist-contain-img img {
+		width: 7em;
+	}
+
+	.communication {
+		top: 9em;
+		height: 27em;
+	}
+}
+
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+	.asist-contain-img img {
+		width: 5em;
+	}
+
+	.fill {
+		height: 4.5em;
+	}
+
+	.communication {
+		top: 8em;
+		height: 27em;
+	}
+}

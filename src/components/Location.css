@@ -1,0 +1,62 @@
+.location {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #a5b4a7;
+}
+
+.location-title {
+  font-size: 3em;
+  line-height: 1em;
+  letter-spacing: 0.15em;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-weight: 500;
+  padding: 1em;
+}
+
+.location-map {
+  width: 90%;
+  height: 20em;
+  background-color: #fff;
+  align-self: center;
+  border-radius: 10px;
+}
+
+.location-date {
+  width: 100vw;
+  height: 7em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.location-date h2 {
+  font-size: 2em;
+  line-height: 2em;
+  font-weight: 500;
+}
+
+.location-date h3 {
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: 300;
+}
+
+.location-btn {
+  text-align: center;
+  width: 50%;
+  align-self: center;
+  padding: 15px 0 15px 0;
+  border-radius: 10px;
+  background-color: #bdd5bf;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.location-fill {
+  height: 7em;
+}
